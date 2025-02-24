@@ -1,7 +1,6 @@
 return {
   "folke/snacks.nvim",
   keys = {
-
     {
       "<leader>N",
       function()
