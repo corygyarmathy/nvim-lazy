@@ -17,9 +17,9 @@ return {
             analysis = {
               diagnosticSeverityOverrides = {
                 -- Categories: "error", "warning", "information", "hint" OR Boolean: true, false
-                reportUnusedImport = "information",
-                reportUnusedVariable = "information",
-                reportUnusedCallResult = "information",
+                -- reportUnusedImport = false, -- reported by ruff
+                -- reportUnusedVariable = "information",
+                -- reportUnusedCallResult = "information",
                 -- reportUnusedCallResult = false,
                 -- reportMissingTypeArgument = false,
                 -- reportMissingImports = false,
