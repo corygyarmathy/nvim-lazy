@@ -17,5 +17,9 @@ return {
     --   end,
     --   desc = "Explorer Snacks (root dir)",
     -- },
+  opts = {
+    scroll = {
+      enabled = false,
+    },
   },
 }
